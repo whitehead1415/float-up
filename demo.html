@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<style>
+
+	body {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	html,
+	body,
+	#world {
+		height: 99%;
+	}
+	body {
+		background-color: #333;
+		color: #222;
+	}
+	.floatable {
+		position: absolute;
+		transition: all 0.3s ease-in-out;
+	}
+
+
+
+	.country-label,
+	.state-label,
+	.county-label {
+		text-align: center;
+	}
+
+	.country-label:hover,
+	.state-label:hover,
+	.county-label:hover,
+	.city:hover{
+		cursor: pointer;
+	}
+
+	.country {
+		margin-left:8px;
+		margin-top: 8px;
+		background-color: #4280D8;
+		border-radius: 8px;
+	}
+
+	.state {
+		background-color: red;
+		margin-left:8px;
+		margin-top: 8px;
+		background-color: #48C3CB;
+		border-radius: 8px;
+	}
+
+	.county {
+		margin-left:8px;
+		margin-top: 8px;
+		background-color: #2D97D3;
+		border-radius: 8px;
+	}
+
+	.city {
+		border-radius: 8px;
+		text-align: center;
+		line-height: 60px;
+		margin-left:8px;
+		margin-top: 6px;
+	}
+	.county {
+	}
+
+</style>
+</head>
+<body>
+<div id="world"></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="src/layoutinator.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>
